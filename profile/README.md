@@ -1,13 +1,7 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ReflowPDF/reflowpdf/main/assets/mark-dark.svg">
-  <img src="https://raw.githubusercontent.com/ReflowPDF/reflowpdf/main/assets/mark-light.svg" width="40" height="40" alt="ReflowPDF">
-</picture>
+### <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ReflowPDF/reflowpdf/main/assets/mark-dark.svg"><img height="20" src="https://raw.githubusercontent.com/ReflowPDF/reflowpdf/main/assets/mark-light.svg" alt=""></picture>&nbsp; ReflowPDF
 
-ReflowPDF is a PDF editor that treats a PDF as a document: click a line, type, and the pages after it are laid out again. It runs on our own layout engine, without a headless browser, and writes tagged PDF/UA output.
+A PDF editor that treats a PDF as a document: click a line, type, and the pages after it are laid out again. Underneath is our own layout engine. It paginates without a headless browser (running headers and footers, page numbers, tables of contents, footnotes, tables that continue across pages) and writes tagged PDF/UA.
 
-- Editor: [app.reflowpdf.com](https://app.reflowpdf.com)
-- Connector for Claude, ChatGPT, Cursor and VS Code: [reflowpdf/mcp](https://github.com/ReflowPDF/reflowpdf/tree/main/mcp)
-- CSS conformance results: [reflowpdf.com/conformance](https://reflowpdf.com/conformance)
-- Docs: [reflowpdf.com/docs](https://reflowpdf.com/docs)
+[Editor](https://app.reflowpdf.com) &nbsp;·&nbsp; [AI connector](https://github.com/ReflowPDF/reflowpdf/tree/main/mcp) &nbsp;·&nbsp; [Conformance](https://reflowpdf.com/conformance) &nbsp;·&nbsp; [Docs](https://reflowpdf.com/docs)
 
-Made by INSEAW LLC, South Carolina. Member of the [PDF Association](https://pdfa.org). hello@reflowpdf.com
+<sub>INSEAW LLC, South Carolina &nbsp;·&nbsp; PDF Association member &nbsp;·&nbsp; hello@reflowpdf.com</sub>
