@@ -1,14 +1,13 @@
-<img src="https://raw.githubusercontent.com/ReflowPDF/reflowpdf/main/assets/logo.png" width="64" height="64" alt="ReflowPDF">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ReflowPDF/reflowpdf/main/assets/mark-dark.svg">
+  <img src="https://raw.githubusercontent.com/ReflowPDF/reflowpdf/main/assets/mark-light.svg" width="40" height="40" alt="ReflowPDF">
+</picture>
 
-### ReflowPDF
+ReflowPDF is a PDF editor that treats a PDF as a document: click a line, type, and the pages after it are laid out again. It runs on our own layout engine, without a headless browser, and writes tagged PDF/UA output.
 
-A browser editor where a PDF behaves like a document: click a line, type, and every page after it is laid out again. Under it is our own layout engine — no headless browser — with real pagination (running headers and footers, page numbers, tables of contents, footnotes, tables that continue across pages) and tagged PDF/UA output.
+- Editor: [app.reflowpdf.com](https://app.reflowpdf.com)
+- Connector for Claude, ChatGPT, Cursor and VS Code: [reflowpdf/mcp](https://github.com/ReflowPDF/reflowpdf/tree/main/mcp)
+- CSS conformance results: [reflowpdf.com/conformance](https://reflowpdf.com/conformance)
+- Docs: [reflowpdf.com/docs](https://reflowpdf.com/docs)
 
-- **Editor:** [app.reflowpdf.com](https://app.reflowpdf.com)
-- **AI assistants (MCP):** [`ReflowPDF/reflowpdf`](https://github.com/ReflowPDF/reflowpdf) — make PDFs from Claude, ChatGPT, Cursor or VS Code and keep editing them on the page
-- **CSS conformance:** [reflowpdf.com/conformance](https://reflowpdf.com/conformance) — Web Platform Tests results by spec
-- **Docs:** [reflowpdf.com/docs](https://reflowpdf.com/docs)
-
-The engine is closed source. Connector configuration and examples here are MIT.
-
-Member of the [PDF Association](https://pdfa.org). Made by INSEAW LLC, South Carolina. Contact: [hello@reflowpdf.com](mailto:hello@reflowpdf.com)
+Made by INSEAW LLC, South Carolina. Member of the [PDF Association](https://pdfa.org). hello@reflowpdf.com
